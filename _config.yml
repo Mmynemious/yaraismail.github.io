@@ -1,0 +1,16 @@
+# _config.yml
+title: "Yara Ismail | Portfolio"
+author: "Yara Ismail"
+description: "Personal portfolio showcasing my work in business, AI, and research."
+theme: minima
+
+# URL settings (replace with your actual GitHub username)
+url: "https://Mmynemious.github.io"
+baseurl: "/yaraismail.github.io"
+
+header_pages:
+  - about.md
+  - education.md
+  - projects.md
+  - awards.md
+  - contact.md
