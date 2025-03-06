@@ -4,6 +4,11 @@ author: "Yara Ismail"
 description: "Personal portfolio showcasing my work in business, AI, and research."
 theme: minima
 
+extra:
+  head:
+    - "<link rel='stylesheet' href='/assets/css/custom.css'>"
+
+
 defaults:
   - scope:
       path: "_posts"
