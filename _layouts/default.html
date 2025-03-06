@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} - {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+  <meta name="description" content="{{ site.description }}">
+</head>
+<body>
+  <!-- Möbius strip background animation -->
+  <div class="mobi-strip"></div>
+
+  <header>
+    <nav class="navbar">
+      <a href="{{ '/' | absolute_url }}">Home</a>
+      <a href="{{ '/about/' | absolute_url }}">About</a>
+      <a href="{{ '/education/' | absolute_url }}">Education</a>
+      <a href="{{ '/projects/' | absolute_url }}">Projects</a>
+      <a href="{{ '/awards/' | absolute_url }}">Awards</a>
+      <a href="{{ '/contact/' | absolute_url }}">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer>
+    <p>&copy; {{ site.time | date: "%Y" }} {{ site.author }}</p>
+  </footer>
+
+</body>
+</html>
