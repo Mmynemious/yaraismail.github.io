@@ -4,6 +4,12 @@ author: "Yara Ismail"
 description: "Personal portfolio showcasing my work in business, AI, and research."
 theme: minima
 
+defaults:
+  - scope:
+      path: "_posts"
+    values:
+      dark_mode: true
+
 # URL settings (replace with your actual GitHub username)
 url: "https://Mmynemious.github.io"
 baseurl: "/yaraismail.github.io"
